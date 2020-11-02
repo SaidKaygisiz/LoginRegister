@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="6"
+    tools:context=".LoginFragment">
+
+    <com.zigis.materialtextfield.MaterialTextField
+        android:id="@+id/login_email"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_weight="2"
+        android:drawableStart="@drawable/mail"
+        android:drawablePadding="15dp"
+        android:fontFamily="@font/ralewaylight"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/Black"
+        android:textColorHint="@color/Black_Cat"
+        app:activeHintColor="@color/Black"
+        app:activeUnderlineColor="@color/Black"
+        app:defaultUnderlineColor="@color/BlackGhost">
+
+    </com.zigis.materialtextfield.MaterialTextField>
+
+
+    <com.zigis.materialtextfield.MaterialTextField
+        android:id="@+id/login_password"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_weight="2"
+        android:drawableLeft="@drawable/password"
+        android:drawableRight="@drawable/ic_password_eye"
+        android:drawablePadding="15dp"
+        android:fontFamily="@font/ralewaylight"
+        android:hint="Parola"
+        android:inputType="textPassword"
+        android:textColor="@color/Black"
+        android:textColorHint="@color/Black_Cat"
+        app:activeHintColor="@color/Black"
+        app:activeUnderlineColor="@color/Black"
+        app:defaultUnderlineColor="@color/BlackGhost"
+        app:isClearEnabled="false">
+
+    </com.zigis.materialtextfield.MaterialTextField>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right">
+
+        <TextView
+            android:id="@+id/forgot_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="30dp"
+            android:clickable="true"
+            android:fontFamily="@font/openlight"
+            android:text="Şifremi Unuttum"
+            android:textColor="@color/black"
+
+            android:textSize="15dp">
+
+        </TextView>
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/login_button"
+        style="@style/login_button"
+        android:layout_width="200dp"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="25dp"
+        android:layout_weight="1"
+        android:fontFamily="@font/openbold"
+        android:gravity="center"
+        android:text="OTURUM AÇ"
+        android:textColor="@color/White">
+
+    </Button>
+
+    <LinearLayout
+        android:id="@+id/forgot_layout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:fontFamily="@font/courier_new"
+            android:text="Şifresini sıfırlamak istediğiniz hesabın kayıtlı olduğu mail adresini giriniz"
+            android:textColor="@color/Black"
+            android:textSize="20dp"
+            android:textStyle="bold">
+
+        </TextView>
+
+
+        <com.zigis.materialtextfield.MaterialTextField
+            android:id="@+id/forgot_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="25dp"
+            android:drawableStart="@drawable/mail"
+            android:drawablePadding="15dp"
+            android:fontFamily="@font/athiti_light"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/Black"
+            android:textColorHint="@color/Black_Cat"
+            app:activeHintColor="@color/Black"
+            app:activeUnderlineColor="@color/Black"
+            app:defaultUnderlineColor="@color/BlackGhost">
+
+        </com.zigis.materialtextfield.MaterialTextField>
+
+
+        <Button
+            android:id="@+id/forgot_button"
+            style="@style/login_button"
+            android:layout_width="200dp"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="25dp"
+            android:fontFamily="@font/courier_new"
+            android:text="Sıfırlama Linki Gönder"
+            android:textColor="@color/WhiteGhost"
+            android:textStyle="bold">
+
+        </Button>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+
+

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Fragments.NameFragment">
+
+    <com.zigis.materialtextfield.MaterialTextField
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:drawableLeft="@drawable/ic_name"
+        android:drawablePadding="15dp"
+        android:fontFamily="@font/ralewaylight"
+        android:hint="Ad"
+        android:inputType="textPersonName"
+        android:textColor="@color/Black"
+        android:textColorHint="@color/Black_Cat"
+        app:activeHintColor="@color/Black"
+        app:activeUnderlineColor="@color/Black"
+        app:defaultUnderlineColor="@color/BlackGhost">
+
+    </com.zigis.materialtextfield.MaterialTextField>
+
+    <com.zigis.materialtextfield.MaterialTextField
+        android:id="@+id/sur_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="25dp"
+        android:drawableLeft="@drawable/ic_name"
+        android:drawablePadding="15dp"
+        android:fontFamily="@font/ralewaylight"
+        android:hint="Soyad"
+        android:inputType="textPersonName"
+        android:textColor="@color/Black"
+        android:textColorHint="@color/Black_Cat"
+        app:activeHintColor="@color/Black"
+        app:activeUnderlineColor="@color/Black"
+        app:defaultUnderlineColor="@color/BlackGhost">
+
+    </com.zigis.materialtextfield.MaterialTextField>
+
+</LinearLayout>

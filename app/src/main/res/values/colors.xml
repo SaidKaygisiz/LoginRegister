@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="WhiteGhost">#BEFFFFFF</color>
+    <color name="BlackGhost">#70000000</color>
+    <color name="Black">#000000</color>
+    <color name="Black_Cat">#413839</color>
+    <color name="Smokey_Gray">#726E6D</color>
+    <color name="Gray">#736F6E</color>
+    <color name="Gray_Goose">#D1D0CE</color>
+    <color name="Dark_Sea_Green">#8BB381</color>
+    <color name="Basket_Ball_Orange">#F88158</color>
+    <color name="Red">#FF0000</color>
+    <color name="Purple">#8E35EF</color>
+    <color name="White">#FFFFFF</color>
+    <color name="Transparent">#00000000</color>
+</resources>

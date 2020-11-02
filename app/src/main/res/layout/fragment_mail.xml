@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.MailFragment">
+
+    <com.zigis.materialtextfield.MaterialTextField
+        android:id="@+id/mail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:drawableLeft="@drawable/mail"
+        android:drawablePadding="15dp"
+        android:fontFamily="@font/ralewaylight"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/Black"
+        android:textColorHint="@color/Black_Cat"
+        app:activeHintColor="@color/Black"
+        app:activeUnderlineColor="@color/Black"
+        app:defaultUnderlineColor="@color/BlackGhost"
+        app:errorColor="@color/Red">
+
+    </com.zigis.materialtextfield.MaterialTextField>
+</FrameLayout>
